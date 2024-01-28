@@ -20,7 +20,6 @@ const Home = () => {
     return <p>Loading...</p>;
   }
 
-
   return (
     <>
       <ul>
@@ -30,6 +29,8 @@ const Home = () => {
           </li>
         ))}
       </ul>
+      <hr />
+      <p>done by raghav</p>
       <Outlet />
     </>
   );
